@@ -1,0 +1,119 @@
+$body_background_color = green
+$div_background_color = black
+$div_font_color = green
+
+
+
+body{
+	padding: 10px;
+}
+
+.green{
+	background-color: $body_background_color;
+}
+
+.black{
+	background-color: $div_background_color;
+	color: $div_font_color;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 5px;
+}
+
+#frame{
+
+  /*css for iframe here*/
+
+}
+
+
+.blacknopadding{
+	background-color: black;
+	color: green;
+	padding: 5px;
+}
+
+.text-allign-center{
+	text-align: center;
+}
+
+.crop {
+    height: 350px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mycontainer{
+	margin-left: 12%;
+	margin-right: 10%;
+}
+
+
+#navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+
+
+  .navlogo {
+    float: left;
+  }
+
+  li {
+      float: right;
+      text-align: center;
+    
+      a{
+        display: block;
+        color: green;
+        font-size: 25px;
+      
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      
+        a:hover:not(.active) {
+          background-color: lightgreen;
+          color: black;
+        }
+      }
+    }
+  }
+}
+@media  (max-width: 720px) {
+  #navlir,#navlogo{
+  	float: none;
+  }
+
+  .only-big-screen{
+  	display: none;
+  }
+}
+
+.focus-logo {
+  background-color: lightgreen;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
